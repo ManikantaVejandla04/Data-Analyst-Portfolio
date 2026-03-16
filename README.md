@@ -1,31 +1,88 @@
-# Data Analyst Portfolio
+# 👋 Hi, I'm Manikanta Vejandla
 
-## Introduction
-Welcome to my Data Analyst portfolio. I am a passionate data professional with a strong background in analyzing data, building visualizations, and providing data-driven insights to help organizations make informed decisions.
+### Data Analyst | Python · SQL · Power BI · Machine Learning
 
-## Skills
-- Data Analysis
-- Data Visualization
-- Python
-- SQL
-- Excel
-- Machine Learning
-- Statistical Analysis
-- Project Management
+> Transforming raw data into actionable insights that drive smarter business decisions.
 
-## Projects Overview
-### Project 1: Sales Analysis
-Conducted an in-depth analysis of sales data to identify trends and opportunities for increasing revenue. Utilized Python and SQL for data manipulation and visualization.
+---
 
-### Project 2: Customer Segmentation
-Developed a customer segmentation model using segmentation techniques to identify distinct customer groups based on purchasing behavior. Tools used: Python, Power BI
+## 🙋‍♂️ About Me
 
-### Project 3: A/B Testing
-Designed and analyzed A/B tests to determine the effectiveness of marketing strategies. Analyzed results and provided actionable insights.
+I'm a results-driven **Data Analyst** with hands-on experience in data wrangling, statistical analysis, and building compelling visualizations. I thrive at the intersection of data and decision-making — helping organizations uncover hidden patterns, understand their customers, and grow with confidence.
 
-## Contact Information
-Feel free to reach out to me:
-- Email: manikantavejandla2468@gmail.com
-- LinkedIn: www.linkedin.com/in/manikanta1015
+When I'm not querying databases or building dashboards, I'm exploring new ML techniques and keeping up with the latest trends in data science.
 
-Thank you for visiting my portfolio!
+---
+
+## 🛠️ Skills & Tools
+
+| Category | Tools & Technologies |
+|---|---|
+| **Languages** | Python, SQL |
+| **Data Analysis** | Pandas, NumPy, Statistical Analysis |
+| **Visualization** | Power BI, Matplotlib, Seaborn |
+| **Machine Learning** | Scikit-learn, Clustering, A/B Testing |
+| **Spreadsheets** | Microsoft Excel (Advanced) |
+| **Other** | Project Management, Data Storytelling |
+
+---
+
+## 📂 Projects
+
+### 📈 1. Sales Analysis
+> **Tech Stack:** Python · SQL · Matplotlib
+
+Conducted an in-depth analysis of sales data to identify revenue trends and growth opportunities.
+
+- Cleaned and transformed large sales datasets using **Python (Pandas)** and **SQL**
+- Identified seasonal trends and top-performing product categories
+- Delivered visual dashboards that guided strategic pricing decisions
+
+🔗 [View Project](#)
+
+---
+
+### 👥 2. Customer Segmentation
+> **Tech Stack:** Python · Power BI · Scikit-learn
+
+Built a customer segmentation model to group customers by purchasing behavior, enabling targeted marketing strategies.
+
+- Applied **K-Means Clustering** to segment customers into distinct groups
+- Visualized segment profiles using **Power BI** dashboards
+- Provided actionable recommendations that improved campaign targeting efficiency
+
+🔗 [View Project](#)
+
+---
+
+### 🧪 3. A/B Testing Analysis
+> **Tech Stack:** Python · Statistical Analysis
+
+Designed and evaluated A/B tests to measure the effectiveness of marketing campaigns.
+
+- Formulated hypotheses and defined key performance metrics
+- Applied **statistical significance testing** to validate results
+- Delivered clear, data-backed recommendations to the marketing team
+
+🔗 [View Project](#)
+
+---
+
+## 📊 GitHub Stats
+
+![Manikanta's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ManikantaVejandla04&show_icons=true&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ManikantaVejandla04&layout=compact&hide_border=true)
+
+---
+
+## 📬 Let's Connect
+
+I'm always open to new opportunities, collaborations, and interesting data problems!
+
+[![Email](https://img.shields.io/badge/Email-manikantavejandla2468%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:manikantavejandla2468@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manikanta%20Vejandla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manikanta1015)
+[![GitHub](https://img.shields.io/badge/GitHub-ManikantaVejandla04-181717?style=flat&logo=github&logoColor=white)](https://github.com/ManikantaVejandla04)
+
+---
+
+⭐ *If you find my work interesting, feel free to star this repository!*
