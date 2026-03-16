@@ -4,9 +4,9 @@
 A dedicated and analytical data analyst with a strong foundation in statistical analysis, data management, and visualization techniques. Passionate about transforming data into actionable insights and supporting strategic decision-making processes.
 
 ## Education
-- **Bachelor of Science in Data Science**  
-  XYZ University, 2022  
-  Relevant coursework: Statistics, Data Mining, Machine Learning
+- **Bachelors of Technology-ECE**  
+  Vignan's University, Vadlamudi  
+  CGPA-6.59
 
 - **Certification in Data Analysis**  
   ABC Institute, 2021  
