@@ -1,0 +1,4 @@
+cd Data-Analyst-Portfolio
+git add index.html
+git commit -m "Add personal portfolio website"
+git push origin main
