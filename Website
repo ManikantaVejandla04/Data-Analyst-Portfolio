@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manikanta Vejandla — Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #2563eb;
+      --accent-soft: #eff4ff;
+      --bg: #fafaf8;
+      --card: #ffffff;
+      --border: #e8e8e4;
+      --radius: 12px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.2rem 6vw;
+      background: rgba(250,250,248,0.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.25rem;
+      color: var(--ink);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      color: var(--muted); text-decoration: none;
+      font-size: 0.9rem; font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--ink); }
+
+    /* SECTIONS */
+    section { padding: 7rem 6vw; }
+    .section-label {
+      font-size: 0.72rem; font-weight: 500; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+    h1, h2 {
+      font-family: 'DM Serif Display', serif;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+    }
+
+    /* HERO */
+    #hero {
+      min-height: 100vh;
+      display: flex; align-items: center;
+      padding-top: 6rem;
+      gap: 4rem;
+    }
+    .hero-content { max-width: 640px; }
+    .hero-avatar {
+      width: 120px; height: 120px; border-radius: 50%;
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 3rem; flex-shrink: 0;
+      border: 3px solid var(--border);
+      margin-bottom: 2rem;
+      animation: fadeUp 0.6s ease both;
+    }
+    .hero-greeting {
+      font-size: 0.85rem; font-weight: 500; color: var(--muted);
+      letter-spacing: 0.05em; margin-bottom: 0.5rem;
+      animation: fadeUp 0.6s 0.1s ease both;
+    }
+    .hero-title {
+      font-size: clamp(2.8rem, 6vw, 4.5rem);
+      color: var(--ink); margin-bottom: 1rem;
+      animation: fadeUp 0.6s 0.2s ease both;
+    }
+    .hero-title em { font-style: italic; color: var(--accent); }
+    .hero-sub {
+      font-size: 1.1rem; color: var(--muted); font-weight: 300;
+      max-width: 480px; margin-bottom: 2.5rem;
+      animation: fadeUp 0.6s 0.3s ease both;
+    }
+    .hero-ctas {
+      display: flex; gap: 1rem; flex-wrap: wrap;
+      animation: fadeUp 0.6s 0.4s ease both;
+    }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.75rem 1.75rem; border-radius: 8px;
+      font-size: 0.9rem; font-weight: 500; cursor: pointer;
+      text-decoration: none; transition: all 0.2s;
+    }
+    .btn-primary {
+      background: var(--ink); color: #fff;
+    }
+    .btn-primary:hover { background: var(--accent); transform: translateY(-1px); }
+    .btn-ghost {
+      background: transparent; color: var(--ink);
+      border: 1.5px solid var(--border);
+    }
+    .btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+
+    /* ABOUT */
+    #about { background: var(--card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .about-text h2 { font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 1.25rem; }
+    .about-text p { color: var(--muted); font-weight: 300; margin-bottom: 1rem; font-size: 1.05rem; }
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 2.5rem; }
+    .stat-num {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.2rem; color: var(--accent); display: block; line-height: 1;
+    }
+    .stat-label { font-size: 0.8rem; color: var(--muted); font-weight: 500; margin-top: 0.3rem; }
+    .about-visual {
+      background: var(--accent-soft);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      border: 1px solid #dbeafe;
+    }
+    .about-visual h3 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.2rem; margin-bottom: 1.5rem; color: var(--ink);
+    }
+    .tag-cloud { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .tag {
+      background: white; border: 1px solid #bfdbfe;
+      color: var(--accent); padding: 0.35rem 0.9rem;
+      border-radius: 99px; font-size: 0.82rem; font-weight: 500;
+    }
+
+    /* SKILLS */
+    #skills { }
+    .skills-header { max-width: 540px; margin-bottom: 3.5rem; }
+    .skills-header h2 { font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 0.75rem; }
+    .skills-header p { color: var(--muted); font-weight: 300; }
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.5rem; }
+    .skill-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.75rem;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+    .skill-card:hover {
+      border-color: var(--accent); transform: translateY(-3px);
+      box-shadow: 0 8px 30px rgba(37,99,235,0.08);
+    }
+    .skill-icon { font-size: 1.8rem; margin-bottom: 1rem; }
+    .skill-card h3 { font-size: 1rem; font-weight: 500; margin-bottom: 0.4rem; }
+    .skill-card p { font-size: 0.85rem; color: var(--muted); font-weight: 300; }
+
+    /* PROJECTS */
+    #projects { background: var(--card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .projects-header { max-width: 540px; margin-bottom: 3.5rem; }
+    .projects-header h2 { font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 0.75rem; }
+    .projects-header p { color: var(--muted); font-weight: 300; }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.75rem; }
+    .project-card {
+      border: 1px solid var(--border); border-radius: var(--radius);
+      overflow: hidden; background: var(--bg);
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .project-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.07);
+      border-color: var(--accent);
+    }
+    .project-thumb {
+      height: 160px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 3.5rem;
+    }
+    .thumb-1 { background: linear-gradient(135deg, #fef3c7, #fde68a); }
+    .thumb-2 { background: linear-gradient(135deg, #dcfce7, #bbf7d0); }
+    .thumb-3 { background: linear-gradient(135deg, #fce7f3, #fbcfe8); }
+    .project-body { padding: 1.5rem; }
+    .project-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem; }
+    .project-tag {
+      background: var(--accent-soft); color: var(--accent);
+      padding: 0.2rem 0.65rem; border-radius: 99px;
+      font-size: 0.72rem; font-weight: 500;
+    }
+    .project-body h3 { font-size: 1.1rem; font-weight: 500; margin-bottom: 0.5rem; }
+    .project-body p { font-size: 0.88rem; color: var(--muted); font-weight: 300; line-height: 1.6; margin-bottom: 1.25rem; }
+    .project-link {
+      font-size: 0.85rem; font-weight: 500; color: var(--accent);
+      text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem;
+      transition: gap 0.2s;
+    }
+    .project-link:hover { gap: 0.6rem; }
+
+    /* CONTACT */
+    #contact { }
+    .contact-inner {
+      max-width: 580px; margin: 0 auto; text-align: center;
+    }
+    .contact-inner h2 { font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 1rem; }
+    .contact-inner p { color: var(--muted); font-weight: 300; font-size: 1.05rem; margin-bottom: 3rem; }
+    .contact-form { text-align: left; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+    .form-group { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem; }
+    label { font-size: 0.82rem; font-weight: 500; color: var(--ink); }
+    input, textarea {
+      padding: 0.75rem 1rem; border: 1.5px solid var(--border);
+      border-radius: 8px; font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem; color: var(--ink); background: var(--card);
+      transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none; resize: vertical;
+    }
+    input:focus, textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+    }
+    textarea { min-height: 130px; }
+    .form-submit { width: 100%; padding: 0.9rem; font-size: 1rem; }
+    .contact-links {
+      display: flex; justify-content: center; gap: 1.5rem;
+      margin-top: 3rem; flex-wrap: wrap;
+    }
+    .contact-link {
+      display: flex; align-items: center; gap: 0.5rem;
+      color: var(--muted); text-decoration: none; font-size: 0.9rem;
+      font-weight: 500; transition: color 0.2s;
+    }
+    .contact-link:hover { color: var(--accent); }
+
+    /* FOOTER */
+    footer {
+      text-align: center; padding: 2rem 6vw;
+      border-top: 1px solid var(--border);
+      font-size: 0.82rem; color: var(--muted);
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .reveal {
+      opacity: 0; transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav { padding: 1rem 4vw; }
+      .nav-links { gap: 1.2rem; }
+      section { padding: 5rem 4vw; }
+      #hero { flex-direction: column; gap: 0; padding-top: 8rem; }
+      .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .form-row { grid-template-columns: 1fr; }
+      .about-stats { gap: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-logo">MV.</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-avatar">👨‍💻</div>
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-title">Manikanta<br/><em>Vejandla</em></h1>
+      <p class="hero-sub">Data Analyst turning complex datasets into clear, actionable insights that help businesses grow smarter.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">View My Work →</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p class="section-label">About Me</p>
+        <h2>Data-driven by nature, curious by default.</h2>
+        <p>I'm a results-oriented Data Analyst with hands-on experience in data wrangling, statistical analysis, and building compelling visualizations that tell a story.</p>
+        <p>I thrive at the intersection of data and decision-making — helping organizations uncover hidden patterns, understand their customers, and move forward with confidence.</p>
+        <div class="about-stats">
+          <div>
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div>
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Tools & Technologies</span>
+          </div>
+          <div>
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Data Driven</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <h3>Core Competencies</h3>
+        <div class="tag-cloud">
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Excel</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Statistical Analysis</span>
+          <span class="tag">A/B Testing</span>
+          <span class="tag">Data Storytelling</span>
+          <span class="tag">Machine Learning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="skills-header reveal">
+      <p class="section-label">Skills</p>
+      <h2>What I bring to the table.</h2>
+      <p>A versatile toolkit built across analysis, visualization, and data science.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">🐍</div>
+        <h3>Python</h3>
+        <p>Data manipulation, analysis, and automation using Pandas, NumPy, and Matplotlib.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🗄️</div>
+        <h3>SQL</h3>
+        <p>Writing complex queries to extract, filter, and aggregate data from relational databases.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📊</div>
+        <h3>Power BI</h3>
+        <p>Building interactive dashboards and reports that communicate insights clearly to stakeholders.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🤖</div>
+        <h3>Machine Learning</h3>
+        <p>Applying clustering, classification, and regression techniques to solve real-world problems.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📈</div>
+        <h3>Statistical Analysis</h3>
+        <p>Hypothesis testing, A/B testing, and deriving statistically significant insights from data.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📋</div>
+        <h3>Excel</h3>
+        <p>Advanced Excel functions, pivot tables, and data modelling for business analytics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="projects-header reveal">
+      <p class="section-label">Projects</p>
+      <h2>Work I'm proud of.</h2>
+      <p>A selection of data projects showcasing analysis, modelling, and visualization skills.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-1">📈</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">SQL</span>
+            <span class="project-tag">Matplotlib</span>
+          </div>
+          <h3>Sales Analysis</h3>
+          <p>In-depth analysis of sales data to identify revenue trends, seasonal patterns, and growth opportunities that guided strategic pricing decisions.</p>
+          <a href="https://github.com/ManikantaVejandla04/Data-Analyst-Portfolio" class="project-link" target="_blank">View Project →</a>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-2">👥</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">K-Means</span>
+            <span class="project-tag">Power BI</span>
+          </div>
+          <h3>Customer Segmentation</h3>
+          <p>Built a clustering model to segment customers by purchasing behavior, enabling targeted marketing strategies and improved campaign efficiency.</p>
+          <a href="https://github.com/ManikantaVejandla04/Data-Analyst-Portfolio" class="project-link" target="_blank">View Project →</a>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-3">🧪</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Statistics</span>
+            <span class="project-tag">A/B Testing</span>
+          </div>
+          <h3>A/B Testing Analysis</h3>
+          <p>Designed and evaluated A/B tests to measure marketing campaign effectiveness, applying statistical significance testing to validate results.</p>
+          <a href="https://github.com/ManikantaVejandla04/Data-Analyst-Portfolio" class="project-link" target="_blank">View Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <p class="section-label">Contact</p>
+      <h2>Let's work together.</h2>
+      <p>Have a project in mind or want to connect? I'd love to hear from you.</p>
+      <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Project Collaboration" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell me about your project or idea..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Send Message →</button>
+      </form>
+      <div class="contact-links reveal">
+        <a href="mailto:manikantavejandla2468@gmail.com" class="contact-link">
+          <span>✉️</span> manikantavejandla2468@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/manikanta1015" target="_blank" class="contact-link">
+          <span>💼</span> LinkedIn
+        </a>
+        <a href="https://github.com/ManikantaVejandla04" target="_blank" class="contact-link">
+          <span>🐙</span> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Manikanta Vejandla · Built with care</p>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Form handler
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('button[type="submit"]');
+      btn.textContent = '✅ Message Sent!';
+      btn.style.background = '#16a34a';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.textContent = 'Send Message →';
+        btn.style.background = '';
+        btn.disabled = false;
+        e.target.reset();
+      }, 3000);
+    }
+  </script>
+</body>
+</html>
