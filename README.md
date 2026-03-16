@@ -18,14 +18,14 @@ Welcome to my Data Analyst portfolio. I am a passionate data professional with a
 Conducted an in-depth analysis of sales data to identify trends and opportunities for increasing revenue. Utilized Python and SQL for data manipulation and visualization.
 
 ### Project 2: Customer Segmentation
-Developed a customer segmentation model using segmentation techniques to identify distinct customer groups based on purchasing behavior. Tools used: Python, Tableau.
+Developed a customer segmentation model using segmentation techniques to identify distinct customer groups based on purchasing behavior. Tools used: Python, Power BI
 
 ### Project 3: A/B Testing
 Designed and analyzed A/B tests to determine the effectiveness of marketing strategies. Analyzed results and provided actionable insights.
 
 ## Contact Information
 Feel free to reach out to me:
-- Email: manikanta@example.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- Email: manikantavejandla2468@gmail.com
+- LinkedIn: www.linkedin.com/in/manikanta1015
 
 Thank you for visiting my portfolio!
