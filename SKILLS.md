@@ -1,21 +1,50 @@
-# Technical Skills
+## 🛠️ Skills
 
-## Tools & Technologies
-- **Python** - Advanced
-- **SQL** - Intermediate
-- **R** - Intermediate
-- **Excel** - Advanced
-- **Tableau** - Intermediate
-- **Power BI** - Intermediate
+### 📊 Data Analytics
 
-## Data Analysis Skills
-- **Data Cleaning** - Advanced
-- **Data Visualization** - Intermediate
-- **Statistical Analysis** - Intermediate
-- **Machine Learning** - Basic
-- **Data Mining** - Intermediate
+* SQL
+* Python
+* Excel
+* Power BI
+* Data Visualization
+* Data Storytelling
 
-## Proficiency Levels
-- Advanced: 5+ years of experience
-- Intermediate: 2-5 years of experience
-- Basic: Less than 2 years of experience
+### 🗄️ Databases & Data Warehousing
+
+* MS SQL Server
+* Data Modeling
+* ETL Pipelines
+* Star Schema
+* Data Warehousing
+
+### 📈 Data Processing & Analysis
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Pandas
+* NumPy
+* KPI Analysis
+
+### 💻 Tools & Technologies
+
+* Git
+* GitHub
+* Jupyter Notebook
+* VS Code
+
+### 🔍 SQL Concepts
+
+* JOINs
+* Common Table Expressions (CTEs)
+* Window Functions
+* Subqueries
+* Aggregate Functions
+* Stored Procedures
+
+### 🤝 Professional Skills
+
+* Problem Solving
+* Analytical Thinking
+* Requirement Gathering
+* Technical Documentation
+* Business Intelligence
