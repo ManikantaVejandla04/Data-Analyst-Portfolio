@@ -73,6 +73,16 @@ End-to-end analytics pipeline on the **DataCo Supply Chain Dataset (180,519 rows
 
 ---
 
+### 🔗 [sql-data-warehouse-project]([https://github.com/ManikantaVejandla04/sql-data-warehouse-project])
+> **MS SQL Server · Window Functions · CTEs · Stored Procedures**
+
+- Built a SQL Data Warehouse using Bronze, Silver, and Gold layers following the Medallion Architecture.
+- Developed ETL processes to load, clean, and transform data from multiple source systems.
+- Designed a Star Schema with fact and dimension tables for efficient analytical reporting.
+- Performed business analysis using SQL queries to generate insights on sales, customers, and products.
+
+---
+
 ### 🔗 [E-Commerce Sales Analytics — SQL](https://github.com/ManikantaVejandla04/Ecommerce-Sales-Analytics-using-SQL)
 > **MS SQL Server · Window Functions · CTEs · RFM Segmentation**
 
