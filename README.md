@@ -1,88 +1,169 @@
-# 👋 Hi, I'm Manikanta Vejandla
+<div align="center">
 
-### Data Analyst | Python · SQL · Power BI · Machine Learning
+<img src="https://avatars.githubusercontent.com/u/244166132?v=4" width="120" style="border-radius:50%;" alt="Manikanta Vejandla"/>
 
-> Transforming raw data into actionable insights that drive smarter business decisions.
+# Manikanta Vejandla
 
----
+**Data Analyst · SQL · Python · Power BI**
 
-## 🙋‍♂️ About Me
+[![Portfolio](https://img.shields.io/badge/Portfolio-manikantavejandla.netlify.app-6C63FF?style=flat-square&logo=netlify&logoColor=white)](https://manikantavejandla.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-manikanta1015-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/manikanta1015)
+[![Email](https://img.shields.io/badge/Email-vmanikanta1015%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vmanikanta1015@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=ManikantaVejandla04&style=flat-square&color=6C63FF&label=Profile+Views)](https://github.com/ManikantaVejandla04)
 
-I'm a results-driven **Data Analyst** with hands-on experience in data wrangling, statistical analysis, and building compelling visualizations. I thrive at the intersection of data and decision-making — helping organizations uncover hidden patterns, understand their customers, and grow with confidence.
-
-When I'm not querying databases or building dashboards, I'm exploring new ML techniques and keeping up with the latest trends in data science.
-
----
-
-## 🛠️ Skills & Tools
-
-| Category | Tools & Technologies |
-|---|---|
-| **Languages** | Python, SQL |
-| **Data Analysis** | Pandas, NumPy, Statistical Analysis |
-| **Visualization** | Power BI, Matplotlib, Seaborn |
-| **Machine Learning** | Scikit-learn, Clustering, A/B Testing |
-| **Spreadsheets** | Microsoft Excel (Advanced) |
-| **Other** | Project Management, Data Storytelling |
+</div>
 
 ---
 
-## 📂 Projects
+## 👋 About Me
 
-### 📈 1. Sales Analysis
-> **Tech Stack:** Python · SQL · Matplotlib
+I'm a **Data Analyst at Innomatics Research Labs**, Hyderabad, with a B.Tech in Electronics & Communications Engineering from Vignan's FSTR University (2021–2025).
 
-Conducted an in-depth analysis of sales data to identify revenue trends and growth opportunities.
+I build **end-to-end analytical pipelines** — from raw, messy datasets all the way to production-ready Power BI dashboards that drive real business decisions. My work spans retail, supply chain, ESG reporting, vehicle maintenance, and e-commerce domains.
 
-- Cleaned and transformed large sales datasets using **Python (Pandas)** and **SQL**
-- Identified seasonal trends and top-performing product categories
-- Delivered visual dashboards that guided strategic pricing decisions
+Currently targeting **Big 4 analytics and advisory roles** (Deloitte, EY, KPMG, PwC) across ESG, audit analytics, and operations.
 
-🔗 [View Project](#)
-
----
-
-### 👥 2. Customer Segmentation
-> **Tech Stack:** Python · Power BI · Scikit-learn
-
-Built a customer segmentation model to group customers by purchasing behavior, enabling targeted marketing strategies.
-
-- Applied **K-Means Clustering** to segment customers into distinct groups
-- Visualized segment profiles using **Power BI** dashboards
-- Provided actionable recommendations that improved campaign targeting efficiency
-
-🔗 [View Project](#)
+- 🔭 Currently building: **Supply Chain & Logistics Analytics** (180K+ rows, Python → SQL Server → Power BI)
+- 🌱 Learning: Advanced DAX patterns, SEBI BRSR ESG frameworks, ML for business analytics
+- 💼 Open to: Full-time Data Analyst roles — Hyderabad / Remote
+- 📫 Reach me: [vmanikanta1015@gmail.com](mailto:vmanikanta1015@gmail.com)
 
 ---
 
-### 🧪 3. A/B Testing Analysis
-> **Tech Stack:** Python · Statistical Analysis
+## 🛠️ Tech Stack
 
-Designed and evaluated A/B tests to measure the effectiveness of marketing campaigns.
+**Languages & Querying**
 
-- Formulated hypotheses and defined key performance metrics
-- Applied **statistical significance testing** to validate results
-- Delivered clear, data-backed recommendations to the marketing team
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![MS SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 
-🔗 [View Project](#)
+**Python Libraries**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C8CBF?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+
+**Visualization & Reporting**
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+
+**Tools**
+
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![SSMS](https://img.shields.io/badge/SSMS-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+---
+
+## 📂 Featured Projects
+
+### 🔗 [Supply Chain & Logistics Analytics](https://github.com/ManikantaVejandla04)
+> **Python · SQL Server · Power BI · Big 4 Consulting Framing**
+
+End-to-end analytics pipeline on the **DataCo Supply Chain Dataset (180,519 rows)**. Star schema design, BULK INSERT into SSMS, and a consulting-style Power BI dashboard tracking delivery performance, demand variance, and supplier risk scores.
+
+- 180K+ rows processed across Python → SQL Server → Power BI
+- Star schema with dimension & fact tables via BULK INSERT
+- KPIs: on-time delivery rate, demand variance, supplier risk score
+
+---
+
+### 🔗 [ESG Reporting Dashboard — SEBI BRSR Aligned](https://github.com/ManikantaVejandla04)
+> **Python · SQL Server · Power BI · SEBI BRSR · GRI · TCFD**
+
+BRSR-aligned ESG analytics platform for **10 NSE-listed companies across 2021–2024**. Extracted real Wipro BRSR PDF data, built a synthetic 40-row dataset with 29 ESG columns, and delivered a 4-page Power BI dashboard.
+
+- Real BRSR PDF data extraction + MinMaxScaler ESG composite scoring
+- DAX: `RANKX`, `CALCULATE`, `LAG`, `DIVIDE`, `SELECTEDVALUE`
+- Dashboard pages: ESG Scorecard · Emissions & Energy · People & Board · Trend & Benchmarking
+
+---
+
+### 🔗 [E-Commerce Sales Analytics — SQL](https://github.com/ManikantaVejandla04/Ecommerce-Sales-Analytics-using-SQL)
+> **MS SQL Server · Window Functions · CTEs · RFM Segmentation**
+
+4-table star schema with **20 business-driven SQL queries** covering RFM customer segmentation, cohort retention, MoM revenue growth using `LAG()`, product ranking with `RANK() OVER(PARTITION BY)`, and a flat Executive Dashboard view ready for Power BI.
+
+- Techniques: `CTE`, `LAG()`, `RANK()`, `SUM() OVER()`, `DATEDIFF()`, `CASE WHEN`
+- Business areas: Revenue, CLV, Operational Metrics, Advanced Analytics
+- Q20 produces a denormalized view directly importable into Power BI
+
+---
+
+### 🔗 [Superstore Sales — EDA](https://github.com/ManikantaVejandla04/Superstoresales-EDA)
+> **Python · Pandas · Matplotlib · Seaborn**
+
+Two-phase exploratory data analysis on **9,994 retail transactions**. Full data cleaning pipeline (IQR winsorization, median/mode imputation, datetime conversion) followed by 8 business insight visualizations.
+
+- Discount ↔ Profit correlation: r = −0.394 (heavy discounting erodes margins)
+- Technology most profitable; Furniture has a structural loss problem
+- Zero missing values, correct dtypes, no duplicates — analysis-ready output
+
+---
+
+### 🔗 [Flipkart Laptop Price Analysis — Web Scraping + EDA](https://github.com/ManikantaVejandla04/Flipkart-Laptop-Price-Analysis-using-Webscrapping-and-EDA)
+> **Python · Selenium · BeautifulSoup · Pandas**
+
+Automated scraping of live Flipkart laptop listings using Selenium and BeautifulSoup, followed by price-spec analysis revealing brand positioning, RAM/storage vs. price relationships, and pricing tier patterns.
+
+- Automated scraping with Selenium — real-time product data extraction
+- Price distribution, brand tier, and spec-to-price ratio analysis
+- Cleaned dataset structured for ML price prediction modeling
+
+---
+
+### 🔗 [Adventure Works Sales Analytics](https://github.com/ManikantaVejandla04/Adventure-Works-Sales-Analytics)
+> **SQL · Power BI · Sales Analytics**
+
+Sales performance analysis on the Adventure Works enterprise database — multi-table SQL extraction and aggregation with a Power BI dashboard tracking product, territory, and rep-level KPIs with drill-down capability.
+
+---
+
+### 🔗 [Amazon Sales Analysis — Excel](https://github.com/ManikantaVejandla04/Amazon-Sales-Project)
+> **Microsoft Excel · Pivot Tables · Dashboard Design**
+
+Interactive sales analytics dashboard built entirely in Excel using pivot tables, slicers, conditional formatting, and dynamic charts. Demonstrates advanced Excel as a standalone BI tool for revenue trend and category analysis.
+
+---
+
+### 🔗 [Data Analyst Portfolio Website](https://github.com/ManikantaVejandla04/Data-Analyst-Portfolio)
+> **HTML · CSS · Responsive Design**
+
+Personal portfolio website showcasing all projects, skills, and experience — built with DM Serif Display / DM Sans typography, purple (#6C63FF) accent, and responsive layout. Live at [manikantavejandla.netlify.app](https://manikantavejandla.netlify.app/).
 
 ---
 
 ## 📊 GitHub Stats
 
-![Manikanta's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ManikantaVejandla04&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ManikantaVejandla04&layout=compact&hide_border=true)
+<div align="center">
+
+![Manikanta's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ManikantaVejandla04&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ManikantaVejandla04&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
 
 ---
 
-## 📬 Let's Connect
+## 🤝 Let's Connect
 
-I'm always open to new opportunities, collaborations, and interesting data problems!
+I'm always open to discussing data projects, analytics roles, or ESG/sustainability reporting. Feel free to reach out!
 
-[![Email](https://img.shields.io/badge/Email-manikantavejandla2468%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:manikantavejandla2468@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manikanta%20Vejandla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manikanta1015)
-[![GitHub](https://img.shields.io/badge/GitHub-ManikantaVejandla04-181717?style=flat&logo=github&logoColor=white)](https://github.com/ManikantaVejandla04)
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-6C63FF?style=for-the-badge)](https://manikantavejandla.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manikanta1015)
+[![Email](https://img.shields.io/badge/Email-Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vmanikanta1015@gmail.com)
+
+</div>
 
 ---
 
-⭐ *If you find my work interesting, feel free to star this repository!*
+<div align="center">
+  <sub>⚡ <i>Turning messy data into meaningful business insights — one pipeline at a time.</i></sub>
+</div>
