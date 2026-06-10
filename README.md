@@ -17,7 +17,7 @@
 
 ## 👋 About Me
 
-I'm a **Data Analyst at Innomatics Research Labs**, Hyderabad, with a B.Tech in Electronics & Communications Engineering from Vignan's FSTR University (2021–2025).
+I'm an **Aspiring Data Analyst**, Hyderabad, with a B.Tech in Electronics & Communications Engineering from Vignan's University (2021–2025).
 
 I build **end-to-end analytical pipelines** — from raw, messy datasets all the way to production-ready Power BI dashboards that drive real business decisions. My work spans retail, supply chain, ESG reporting, vehicle maintenance, and e-commerce domains.
 
@@ -70,17 +70,6 @@ End-to-end analytics pipeline on the **DataCo Supply Chain Dataset (180,519 rows
 - 180K+ rows processed across Python → SQL Server → Power BI
 - Star schema with dimension & fact tables via BULK INSERT
 - KPIs: on-time delivery rate, demand variance, supplier risk score
-
----
-
-### 🔗 [ESG Reporting Dashboard — SEBI BRSR Aligned](https://github.com/ManikantaVejandla04)
-> **Python · SQL Server · Power BI · SEBI BRSR · GRI · TCFD**
-
-BRSR-aligned ESG analytics platform for **10 NSE-listed companies across 2021–2024**. Extracted real Wipro BRSR PDF data, built a synthetic 40-row dataset with 29 ESG columns, and delivered a 4-page Power BI dashboard.
-
-- Real BRSR PDF data extraction + MinMaxScaler ESG composite scoring
-- DAX: `RANKX`, `CALCULATE`, `LAG`, `DIVIDE`, `SELECTEDVALUE`
-- Dashboard pages: ESG Scorecard · Emissions & Energy · People & Board · Trend & Benchmarking
 
 ---
 
