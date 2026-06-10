@@ -63,7 +63,7 @@ Currently targeting **Big 4 analytics and advisory roles** (Deloitte, EY, KPMG, 
 ## 📂 Featured Projects
 
 ### 🔗 [Supply Chain & Logistics Analytics](https://github.com/ManikantaVejandla04)
-> **Python · SQL Server · Power BI · Big 4 Consulting Framing**
+> **Python · SQL Server · Power BI**
 
 End-to-end analytics pipeline on the **DataCo Supply Chain Dataset (180,519 rows)**. Star schema design, BULK INSERT into SSMS, and a consulting-style Power BI dashboard tracking delivery performance, demand variance, and supplier risk scores.
 
@@ -80,6 +80,16 @@ End-to-end analytics pipeline on the **DataCo Supply Chain Dataset (180,519 rows
 - Developed ETL processes to load, clean, and transform data from multiple source systems.
 - Designed a Star Schema with fact and dimension tables for efficient analytical reporting.
 - Performed business analysis using SQL queries to generate insights on sales, customers, and products.
+
+---
+
+### 🔗 [sql-data-alaytics-project](https://github.com/ManikantaVejandla04/sql-data-analytics-project)
+> **MS SQL Server · Window Functions · CTEs · Joins · Stored Procedures**
+
+- Performed exploratory data analysis (EDA) using SQL to uncover trends, patterns, and key business insights.
+- Developed advanced SQL queries using CTEs, Window Functions, Joins, and Aggregate Functions for analytical reporting.
+- Analyzed customer behavior, product performance, and sales metrics to support data-driven decision-making.
+- Created reusable SQL scripts for KPI tracking, segmentation, trend analysis, and business reporting.
 
 ---
 
